@@ -1,0 +1,35 @@
+<idea-plugin>
+    <id>se.piksel.intellij.themes.prpl</id>
+    <name>Prpl Theme</name>
+    <version>0.2.8</version>
+    <vendor email="nils@piksel.se" url="https://piksel.se">piksel bitworks</vendor>
+    <resource-bundle>
+
+    </resource-bundle>
+    <description><![CDATA[
+      Vibrant dark purple theme for IntelliJ-based editors
+    ]]></description>
+
+    <change-notes><![CDATA[
+      Released the theme as a plugin
+    ]]>
+    </change-notes>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="192.0"/>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+        <themeProvider id="1689629a-4749-46da-b8b2-497dfc97fefb" path="/META-INF/Prpl.theme.json"/>
+        <!--<themeMetadataProvider path="/META-INF/Prpl.themeMetadata.json"/>-->
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+
+</idea-plugin>

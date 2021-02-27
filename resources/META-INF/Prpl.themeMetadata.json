@@ -1,0 +1,11 @@
+{
+  "name": "Prpl Theme",
+  "fixed": false,
+  "ui": [
+    {
+      "key": "Test.Color",
+      "description": "The border for my component. Not used anymore.",
+      "source": "se.piksel.intellij.themes.prpl.TestComponent"
+    }
+  ]
+}

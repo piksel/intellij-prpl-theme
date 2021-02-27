@@ -1,0 +1,241 @@
+{
+  "name": "Prpl",
+  "dark": true,
+  "author": "nils måsén",
+  "editorScheme": "/META-INF/Prplkai.xml",
+  "ui": {
+    "*": {
+      "background": "prp200",
+      "textText": "bwh900,",
+      "foreground": "bwh900",
+      "selectionBackground": "prp700a5",
+      "selectionForeground": "bwh900",
+      "accent": "pnk500",
+      "highlight": "pnk700a5",
+      "windowBorder": "prp100",
+      "border": "prp100",
+      "borderColor": "prp100",
+      "selectionInactiveBackground": "prp700a1",
+      "hoverForeground": "light1",
+      "separatorColor": "light1"
+    },
+    "ToolBar": {
+      "darkShadow": "dark3"
+    },
+    "Toolbar.Floating.background": "prp300",
+    "Button": {
+      "background": "prp300",
+      "shadowWidth": 4,
+      "default": {
+        "foreground": "bwh900",
+        "startBackground": "prp500",
+        "endBackground": "prp500",
+        "focusColor": "#ff8000",
+        "focusedBorderColor": "#0080ff"
+      },
+      "shadowColor": "light5",
+      "focusedBorderColor": "#0080ff"
+    },
+    "TabbedPane": {
+      "contentAreaColor": "light1",
+      "hoverColor": "prp300",
+      "background": "dark1",
+      "focusColor": "pnk500",
+      "underlineColor": "pnk700",
+      "disabledForeground": "light3"
+    },
+    "DefaultTabs": {
+      "background": "prp300",
+      "hoverBackground": "dark1",
+      "underlinedTabBackground": "prp700a5",
+      "underlineColor": "pnk900",
+      "underlineHeight": 0
+    },
+    "EditorTabs": {
+      "background": "prp300",
+      "underlinedTabBackground": "prp700a5",
+      "underlineColor": "pnk900",
+      "underlineHeight": 4,
+      "underlinedTabForeground": "bwh900",
+      "inactiveUnderlineColor": "dark3",
+      "borderColor": "dark3",
+      "hoverBackground": "dark3",
+      "inactiveColoredFileBackground": "#00000000"
+    },
+    "TextField": {
+      "background": "prp200"
+    },
+    "ComboBox": {
+      "foreground": "bwh700",
+      "nonEditableBackground": "prp200",
+      "ArrowButton": {
+        "nonEditableBackground": "prp200"
+      }
+    },
+    "Component": {
+      "focusColor": "pnk500"
+    },
+    "Tree": {
+      "background": "prp100"
+    },
+    "Table": {
+      "alternativeRowBackground": "prp100"
+    },
+    "Popup": {
+      "Advertiser": {
+        "foreground": "bwh700"
+      },
+      "Toolbar": {
+        "borderColor": "dark3",
+        "background": "prp300"
+      },
+      "borderColor": "dark5",
+      "innerBorderColor": "#ffff00",
+      "Header": {
+        "activeBackground": "prp500",
+        "inactiveBackground": "prp200"
+      }
+    },
+    "CompletionPopup": {
+      "foreground": "light9"
+    },
+    "Label": {
+      "infoForeground": "light7"
+    },
+    "List": {
+      "hoverBackground": "pnk500",
+      "selectionInactiveBackground": "prp700a5",
+      "dropLineColor": "dark1",
+      "selectionBackground": "prp700a5"
+    },
+    "Plugins": {
+      "Tab.selectedBackground": "prp700a5",
+      "hoverBackground": "prp700a1",
+      "lightSelectionBackground": "prp700a5"
+    },
+    "ToolTip": {
+      "background": "prp200",
+      "borderColor": "light1",
+      "infoForeground": "cyn700",
+      "shortcutForeground": "pnk700",
+      "paintBorder": true
+    },
+    "Panel": {
+    },
+    "Notification": {
+      "background": "prp100",
+      "borderColor": "light1",
+      "errorBackground": "pnk300"
+    },
+    "RadioButton.foreground": "pnk700",
+    "Link": {
+      "visitedForeground": "prp900",
+      "activeForeground": "prp900",
+      "hoverForeground": "bwh900"
+    },
+    "ProgressBar": {
+      "passedColor": "grn700",
+      "progressColor": "prp800",
+      "indeterminateEndColor": "prp300",
+      "passedEndColor": "grn700a5",
+      "failedColor": "pnk700",
+      "failedEndColor": "pnk300"
+    },
+    "MenuBar": {
+      "borderColor": "prp100"
+    },
+    "Menu": {
+      "acceleratorForeground": "bwh700",
+      "selectionForeground": "bwh900",
+      "foreground": "bwh900"
+    },
+    "MenuItem": {
+      "acceleratorForeground": "light5",
+      "foreground": "bwh900",
+      "disabledForeground": "light3"
+    },
+    "Separator": {
+      "separatorColor": "light1",
+      "foreground": "light1"
+    },
+    "PopupMenu": {
+      "foreground": "bwh900"
+    },
+    "PopupMenuSeparator": {
+      "height": 30,
+      "stripeWidth": 6
+    },
+    "ParameterInfo": {
+      "background": "prp100"
+    },
+    "FileColor": {
+      "Yellow": "bwh500a1",
+      "Green": "grn700a1",
+      "Blue": "cyn700a1",
+      "Orange": "org700a1",
+      "Rose": "pnk700a1",
+      "Violet": "prp700a1"
+    }
+  },
+  "colors": {
+    "dark1": "#00000020",
+    "dark3": "#00000050",
+    "dark5": "#00000080",
+    "dark7": "#000000a0",
+    "dark9": "#000000d0",
+    "light1": "#ffffff20",
+    "light3": "#ffffff50",
+    "light5": "#ffffff80",
+    "light7": "#ffffffa0",
+    "light9": "#ffffffd0",
+    "prp100": "#0e0321ff",
+    "prp200": "#170530ff",
+    "prp300": "#1e0641ff",
+    "prp500": "#2d0862ff",
+    "prp700": "#5611aeff",
+    "prp700a5": "#5611ae80",
+    "prp700a1": "#5611ae20",
+    "prp800": "#740de9ff",
+    "prp900": "#9236ffff",
+    "pnk300": "#5d004c6d",
+    "pnk500": "#be00986d",
+    "pnk700a1": "#c3009920",
+    "pnk700a5": "#c3009980",
+    "pnk700": "#c30099ff",
+    "pnk900": "#ff00c2ff",
+    "bwh500": "#e5b961ff",
+    "bwh500a1": "#e5b96120",
+    "bwh700": "#e5c38aff",
+    "bwh900": "#e5e0d3ff",
+    "highlight": "#ab0085ff",
+    "selectionBackground": "#2e008dff",
+    "selectionForeground": "#ffffffff",
+    "button": "#1a0045ff",
+    "secondaryBackground": "#180e2a41",
+    "disabled": "#e5b961ff",
+    "contrast": "#26005fff",
+    "tableSelected": "#9e00806d",
+    "secondBorder": "#2e008dff",
+    "treeSelection": "#3c0079ff",
+    "notifications": "#2e0078ff",
+    "accent": "#910055ff",
+    "excluded": "#2e0078ff",
+    "grn700": "#5bab00ff",
+    "grn700a5": "#5bab0080",
+    "grn700a1": "#5bab0020",
+    "cyn700": "#00a9f6ff",
+    "cyn700a1": "#00a9f620",
+    "org700a1": "#c4760020"
+  },
+  "icons": {
+    "ColorPalette": {
+      "Actions.Red": "#ab0085",
+      "Actions.Blue": "#00a9f6",
+      "Actions.Green": "grn700",
+      "Actions.Grey": "#32237e",
+      "Actions.GreyInline": "#26195f",
+      "Actions.GreyInline.Dark": "#0f0c2b",
+      "Actions.Yellow": "#c47600"
+    }
+  }
+}
