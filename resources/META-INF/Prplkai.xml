@@ -1,11 +1,5 @@
 <scheme name="Prplkai" version="142" parent_scheme="Default">
-  <metaInfo>
-    <property name="created">2021-02-27T13:35:33</property>
-    <property name="ide">GoLand</property>
-    <property name="ideVersion">2020.3.2.0.0</property>
-    <property name="modified">2021-02-27T13:36:01</property>
-    <property name="originalScheme">Prplkai</property>
-  </metaInfo>
+  <option name="FONT_SCALE" value="1.0" />
   <console-font>
     <option name="EDITOR_FONT_NAME" value="Fira Code Retina" />
     <option name="EDITOR_FONT_SIZE" value="12" />
@@ -14,9 +8,12 @@
     <option name="EDITOR_FONT_NAME" value="Consolas" />
     <option name="EDITOR_FONT_SIZE" value="12" />
   </console-font>
+  <option name="CONSOLE_LIGATURES" value="true" />
+  <option name="CONSOLE_LINE_SPACING" value="1.0" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="295622" />
     <option name="CARET_COLOR" value="bbbbbb" />
+    <option name="CARET_ROW_COLOR" value="1a0437" />
     <option name="CONSOLE_BACKGROUND_KEY" value="e0321" />
     <option name="DOCUMENTATION_COLOR" value="301553" />
     <option name="DOC_COMMENT_LINK" value="553ce3" />
@@ -42,6 +39,8 @@
     <option name="IMAGES_WHITE_CELL_COLOR" value="1a0e2a" />
     <option name="INDENT_GUIDE" value="2d0060" />
     <option name="INFORMATION_HINT" value="1a0045" />
+    <option name="LINE_NUMBERS_COLOR" value="d6c8ac" />
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="f8b73c" />
     <option name="METHOD_SEPARATORS_COLOR" value="5b5a4e" />
     <option name="MODIFIED_LINES_COLOR" value="415f69" />
     <option name="NOTIFICATION_BACKGROUND" value="2e0078" />
@@ -57,9 +56,6 @@
     <option name="TOOLTIP" value="2a1547" />
     <option name="VISUAL_INDENT_GUIDE" value="50009b" />
     <option name="WHITESPACES" value="505050" />
-    <option name="CARET_ROW_COLOR" value="1a0437" />
-    <option name="LINE_NUMBERS_COLOR" value="d6c8ac" />
-    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="f8b73c" />
   </colors>
   <attributes>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
@@ -386,7 +382,7 @@
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
+        <option name="FOREGROUND" value="41ff7a" />
       </value>
     </option>
     <option name="DEFAULT_IDENTIFIER">
@@ -457,7 +453,7 @@
     </option>
     <option name="DEFAULT_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="b3eaef" />
+        <option name="FOREGROUND" value="a796cf" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -468,7 +464,19 @@
     </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL">
       <value>
-        <option name="FOREGROUND" value="ae81ff" />
+        <option name="FOREGROUND" value="5f51ee" />
+      </value>
+    </option>
+    <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE">
+      <value>
+        <option name="EFFECT_COLOR" value="691f7e" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="DEFAULT_REASSIGNED_PARAMETER">
+      <value>
+        <option name="EFFECT_COLOR" value="3b00c4" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="DEFAULT_SEMICOLON">
@@ -505,7 +513,7 @@
     </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="ae81ff" />
+        <option name="FOREGROUND" value="cb9436" />
       </value>
     </option>
     <option name="DELETED_TEXT_ATTRIBUTES">
@@ -655,10 +663,6 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
-    <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
-    <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
-    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
-    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="JS.REGEXP">
       <value>
         <option name="FOREGROUND" value="bb9756" />
@@ -756,6 +760,27 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+    <option name="PY.CLASS_DEFINITION" baseAttributes="DEFAULT_CLASS_NAME" />
+    <option name="PY.DECORATOR">
+      <value>
+        <option name="FOREGROUND" value="f92672" />
+      </value>
+    </option>
+    <option name="PY.FUNC_DEFINITION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="PY.KEYWORD_ARGUMENT">
+      <value>
+        <option name="FOREGROUND" value="ae9fde" />
+      </value>
+    </option>
+    <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+    <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+    <option name="PY.SELF_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="cfbb88" />
+      </value>
+    </option>
+    <option name="PY.STRING.U" baseAttributes="DEFAULT_STRING" />
     <option name="RAINBOW_COLOR0">
       <value>
         <option name="FOREGROUND" value="cab5c8" />
@@ -977,7 +1002,4 @@
       </value>
     </option>
   </attributes>
-  <option name="FONT_SCALE" value="1.0" />
-  <option name="CONSOLE_LIGATURES" value="true" />
-  <option name="CONSOLE_LINE_SPACING" value="1.0" />
 </scheme>
