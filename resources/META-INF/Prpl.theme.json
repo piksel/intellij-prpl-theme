@@ -19,10 +19,6 @@
       "hoverForeground": "light1",
       "separatorColor": "light1"
     },
-    "ToolBar": {
-      "darkShadow": "dark3"
-    },
-    "Toolbar.Floating.background": "prp300",
     "Button": {
       "background": "prp300",
       "shadowWidth": 4,
@@ -36,13 +32,18 @@
       "shadowColor": "light5",
       "focusedBorderColor": "#0080ff"
     },
-    "TabbedPane": {
-      "contentAreaColor": "light1",
-      "hoverColor": "prp300",
-      "background": "dark1",
-      "focusColor": "pnk500",
-      "underlineColor": "pnk700",
-      "disabledForeground": "light3"
+    "ComboBox": {
+      "foreground": "bwh700",
+      "nonEditableBackground": "prp200",
+      "ArrowButton": {
+        "nonEditableBackground": "prp200"
+      }
+    },
+    "CompletionPopup": {
+      "foreground": "light9"
+    },
+    "Component": {
+      "focusColor": "pnk500"
     },
     "DefaultTabs": {
       "background": "prp300",
@@ -62,24 +63,64 @@
       "hoverBackground": "dark3",
       "inactiveColoredFileBackground": "#00000000"
     },
-    "TextField": {
-      "background": "prp200"
+    "FileColor": {
+      "Blue": "cyn700a1",
+      "Green": "grn700a1",
+      "Orange": "org700a1",
+      "Rose": "pnk700a1",
+      "Violet": "prp700a1",
+      "Yellow": "bwh500a1"
     },
-    "ComboBox": {
-      "foreground": "bwh700",
-      "nonEditableBackground": "prp200",
-      "ArrowButton": {
-        "nonEditableBackground": "prp200"
+    "Label": {
+      "infoForeground": "light7"
+    },
+    "Link": {
+      "visitedForeground": "prp900",
+      "activeForeground": "prp900",
+      "hoverForeground": "bwh900"
+    },
+    "List": {
+      "hoverBackground": "pnk500",
+      "selectionInactiveBackground": "prp700a5",
+      "dropLineColor": "dark1",
+      "selectionBackground": "prp700a5"
+    },
+    "Menu": {
+      "acceleratorForeground": "bwh700",
+      "selectionForeground": "bwh900",
+      "foreground": "bwh900"
+    },
+    "MenuBar": {
+      "borderColor": "prp100"
+    },
+    "MenuItem": {
+      "acceleratorForeground": "light5",
+      "foreground": "bwh900",
+      "disabledForeground": "light3"
+    },
+    "Notification": {
+      "background": "prp100",
+      "borderColor": "light1",
+      "errorBackground": "pnk300",
+      "ToolWindow": {
+        "errorBackground": "pnk300",
+        "warningBackground": "org700a1",
+        "informativeBackground": "cyn700a1",
+        "informativeForeground": "cyn700"
       }
     },
-    "Component": {
-      "focusColor": "pnk500"
+    "Panel": {
     },
-    "Tree": {
+    "ParameterInfo": {
       "background": "prp100"
     },
-    "Table": {
-      "alternativeRowBackground": "prp100"
+    "Plugins": {
+      "Tab.selectedBackground": "prp700a5",
+      "hoverBackground": "prp700a1",
+      "lightSelectionBackground": "prp700a5",
+      "tagBackground": "prp100",
+      "eapTagBackground": "prp200",
+      "tagForeground": "bwh900"
     },
     "Popup": {
       "Advertiser": {
@@ -96,42 +137,12 @@
         "inactiveBackground": "prp200"
       }
     },
-    "CompletionPopup": {
-      "foreground": "light9"
+    "PopupMenu": {
+      "foreground": "bwh900"
     },
-    "Label": {
-      "infoForeground": "light7"
-    },
-    "List": {
-      "hoverBackground": "pnk500",
-      "selectionInactiveBackground": "prp700a5",
-      "dropLineColor": "dark1",
-      "selectionBackground": "prp700a5"
-    },
-    "Plugins": {
-      "Tab.selectedBackground": "prp700a5",
-      "hoverBackground": "prp700a1",
-      "lightSelectionBackground": "prp700a5"
-    },
-    "ToolTip": {
-      "background": "prp200",
-      "borderColor": "light1",
-      "infoForeground": "cyn700",
-      "shortcutForeground": "pnk700",
-      "paintBorder": true
-    },
-    "Panel": {
-    },
-    "Notification": {
-      "background": "prp100",
-      "borderColor": "light1",
-      "errorBackground": "pnk300"
-    },
-    "RadioButton.foreground": "pnk700",
-    "Link": {
-      "visitedForeground": "prp900",
-      "activeForeground": "prp900",
-      "hoverForeground": "bwh900"
+    "PopupMenuSeparator": {
+      "height": 30,
+      "stripeWidth": 6
     },
     "ProgressBar": {
       "passedColor": "grn700",
@@ -141,40 +152,45 @@
       "failedColor": "pnk700",
       "failedEndColor": "pnk300"
     },
-    "MenuBar": {
-      "borderColor": "prp100"
-    },
-    "Menu": {
-      "acceleratorForeground": "bwh700",
-      "selectionForeground": "bwh900",
-      "foreground": "bwh900"
-    },
-    "MenuItem": {
-      "acceleratorForeground": "light5",
-      "foreground": "bwh900",
-      "disabledForeground": "light3"
-    },
+    "RadioButton.foreground": "pnk700",
     "Separator": {
       "separatorColor": "light1",
       "foreground": "light1"
     },
-    "PopupMenu": {
-      "foreground": "bwh900"
+    "TabbedPane": {
+      "contentAreaColor": "light1",
+      "hoverColor": "prp300",
+      "background": "dark1",
+      "focusColor": "pnk500",
+      "underlineColor": "pnk700",
+      "disabledForeground": "light3"
     },
-    "PopupMenuSeparator": {
-      "height": 30,
-      "stripeWidth": 6
+    "Table": {
+      "alternativeRowBackground": "prp100"
     },
-    "ParameterInfo": {
+    "TextField": {
+      "background": "prp200"
+    },
+    "ToolBar": {
+      "darkShadow": "dark3",
+      "floatingForeground": "bwh900",
+      "Floating": {
+        "background": "prp300"
+      }
+    },
+    "ToolTip": {
+      "background": "prp200",
+      "borderColor": "light1",
+      "infoForeground": "cyn700",
+      "shortcutForeground": "pnk700",
+      "paintBorder": true,
+      "Actions": {
+        "infoForeground": "cyn700",
+        "background": "prp300"
+      }
+    },
+    "Tree": {
       "background": "prp100"
-    },
-    "FileColor": {
-      "Yellow": "bwh500a1",
-      "Green": "grn700a1",
-      "Blue": "cyn700a1",
-      "Orange": "org700a1",
-      "Rose": "pnk700a1",
-      "Violet": "prp700a1"
     }
   },
   "colors": {
@@ -231,7 +247,7 @@
     "ColorPalette": {
       "Actions.Red": "#ab0085",
       "Actions.Blue": "#00a9f6",
-      "Actions.Green": "grn700",
+      "Actions.Green": "#5bab00",
       "Actions.Grey": "#32237e",
       "Actions.GreyInline": "#26195f",
       "Actions.GreyInline.Dark": "#0f0c2b",
