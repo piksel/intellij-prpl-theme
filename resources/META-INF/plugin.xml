@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>se.piksel.intellij.themes.prpl</id>
     <name>Prpl Theme</name>
-    <version>0.4.0</version>
+    <version>0.5.3</version>
     <vendor email="nils@piksel.se" url="https://piksel.se">piksel bitworks</vendor>
     <resource-bundle>
 
@@ -14,6 +14,7 @@
       - General consistency improvements.
       - Use dark fallback color scheme
       - Additional subtle hinting on various elements
+      - Remove (unintentional) Material theme dependency
       - Hopefully fixes some odd color choices in rare UI elements
     ]]>
     </change-notes>

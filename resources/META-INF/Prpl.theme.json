@@ -16,24 +16,37 @@
       "border": "prp100",
       "borderColor": "prp100",
       "selectionInactiveBackground": "prp700a1",
-      "hoverForeground": "light1",
-      "separatorColor": "light1"
+      "hoverForeground": "selectionForeground",
+      "hoverBackground": "prp600",
+      "separatorColor": "light1",
+      "disabledBackground": "dark1"
+    },
+    "ActionButton": {
+    },
+    "Borders": {
+      "color": "light1",
+      "ContrastBorderColor": "light3"
     },
     "Button": {
       "background": "prp300",
-      "shadowWidth": 4,
+      "shadowWidth": 2,
       "default": {
         "foreground": "bwh900",
-        "startBackground": "prp500",
+        "startBackground": "prp600",
         "endBackground": "prp500",
         "focusColor": "#ff8000",
         "focusedBorderColor": "#0080ff"
       },
-      "shadowColor": "light5",
+      "startBackground": "prp300",
+      "endBackground": "prp200",
+      "shadowColor": "prp200",
       "focusedBorderColor": "#0080ff"
     },
+    "ColorChooser": {
+      "background": "prp300"
+    },
     "ComboBox": {
-      "foreground": "bwh700",
+      "foreground": "bwh900",
       "nonEditableBackground": "prp200",
       "ArrowButton": {
         "nonEditableBackground": "prp200"
@@ -43,7 +56,14 @@
       "foreground": "light9"
     },
     "Component": {
-      "focusColor": "pnk500"
+      "focusColor": "pnk500",
+      "focusedBorderColor": "prp800",
+      "errorFocusColor": "pnk700",
+      "hoverIconColor": "selectionForeground",
+      "borderColor": "light3",
+      "disabledBorderColor": "light1",
+      "arc": 10,
+      "focusWidth": 0
     },
     "DefaultTabs": {
       "background": "prp300",
@@ -56,12 +76,15 @@
       "background": "prp300",
       "underlinedTabBackground": "prp700a5",
       "underlineColor": "pnk900",
-      "underlineHeight": 4,
+      "underlineHeight": 0,
       "underlinedTabForeground": "bwh900",
       "inactiveUnderlineColor": "dark3",
       "borderColor": "dark3",
       "hoverBackground": "dark3",
       "inactiveColoredFileBackground": "#00000000"
+    },
+    "EditorPane": {
+      "inactiveBackground": "prp300"
     },
     "FileColor": {
       "Blue": "cyn700a1",
@@ -75,9 +98,9 @@
       "infoForeground": "light7"
     },
     "Link": {
-      "visitedForeground": "prp900",
-      "activeForeground": "prp900",
-      "hoverForeground": "bwh900"
+      "visitedForeground": "bwh700",
+      "activeForeground": "bwh900",
+      "hoverForeground": "light9"
     },
     "List": {
       "hoverBackground": "pnk500",
@@ -86,17 +109,19 @@
       "selectionBackground": "prp700a5"
     },
     "Menu": {
-      "acceleratorForeground": "bwh700",
-      "selectionForeground": "bwh900",
-      "foreground": "bwh900"
+      "acceleratorForeground": "light7",
+      "selectionForeground": "selectionForeground",
+      "foreground": "bwh900",
+      "background": "prp300"
     },
     "MenuBar": {
       "borderColor": "prp100"
     },
     "MenuItem": {
-      "acceleratorForeground": "light5",
+      "acceleratorForeground": "light7",
       "foreground": "bwh900",
-      "disabledForeground": "light3"
+      "disabledForeground": "light3",
+      "selectionForeground": "selectionForeground"
     },
     "Notification": {
       "background": "prp100",
@@ -110,17 +135,28 @@
       }
     },
     "Panel": {
+      "background": "prp200"
     },
     "ParameterInfo": {
-      "background": "prp100"
+      "background": "prp100",
+      "foreground": "#fcfcfb",
+      "infoForeground": "#999999",
+      "currentOverloadBackground": "#727072",
+      "currentParameterForeground": "#fcfcfb"
     },
     "Plugins": {
       "Tab.selectedBackground": "prp700a5",
       "hoverBackground": "prp700a1",
       "lightSelectionBackground": "prp700a5",
-      "tagBackground": "prp100",
+      "tagBackground": "prp200",
       "eapTagBackground": "prp200",
-      "tagForeground": "bwh900"
+      "tagForeground": "bwh900",
+      "Button": {
+        "installBackground": "prp600",
+        "installForeground": "selectionForeground",
+        "installFillBackground": "prp600",
+        "installFillForeground": "selectionForeground"
+      }
     },
     "Popup": {
       "Advertiser": {
@@ -131,18 +167,18 @@
         "background": "prp300"
       },
       "borderColor": "dark5",
-      "innerBorderColor": "#ffff00",
+      "innerBorderColor": "dark3",
       "Header": {
         "activeBackground": "prp500",
         "inactiveBackground": "prp200"
       }
     },
     "PopupMenu": {
-      "foreground": "bwh900"
-    },
-    "PopupMenuSeparator": {
-      "height": 30,
-      "stripeWidth": 6
+      "background": "prp300",
+      "foreground": "dark3",
+      "translucentBackground": false,
+      "borderInsets": "4,1,4,1",
+      "borderWidth": 1
     },
     "ProgressBar": {
       "passedColor": "grn700",
@@ -152,10 +188,12 @@
       "failedColor": "pnk700",
       "failedEndColor": "pnk300"
     },
-    "RadioButton.foreground": "pnk700",
     "Separator": {
-      "separatorColor": "light1",
-      "foreground": "light1"
+      "separatorColor": "light1"
+    },
+    "SearchEverywhere": {
+      "Header": {},
+      "Tab.selectedBackground": "prp600"
     },
     "TabbedPane": {
       "contentAreaColor": "light1",
@@ -166,21 +204,38 @@
       "disabledForeground": "light3"
     },
     "Table": {
-      "alternativeRowBackground": "prp100"
+      "alternativeRowBackground": "prp100",
+      "stripeColor": "light1"
+    },
+    "TextArea": {
+      "background": "prp300",
+      "selectionBackground": "prp700"
     },
     "TextField": {
-      "background": "prp200"
+      "background": "prp300"
+    },
+    "TextPane": {
+      "background": "prp300",
+      "inactiveBackground": "prp300"
+    },
+    "ToggleButton": {
+      "onForeground": "selecttionForeground",
+      "onBackground": "prp500",
+      "offForeground": "light3",
+      "offBackground": "prp300",
+      "buttonColor": "prp300",
+      "borderColor": "light3"
     },
     "ToolBar": {
       "darkShadow": "dark3",
       "floatingForeground": "bwh900",
       "Floating": {
-        "background": "prp300"
       }
     },
+    "Toolbar.Floating.background": "prp200",
     "ToolTip": {
       "background": "prp200",
-      "borderColor": "light1",
+      "borderColor": "prp600",
       "infoForeground": "cyn700",
       "shortcutForeground": "pnk700",
       "paintBorder": true,
@@ -189,9 +244,33 @@
         "background": "prp300"
       }
     },
+    "ToolWindow": {
+      "Header": {
+        "background": "prp600",
+        "inactiveBackground": "prp500"
+      },
+      "HeaderTab": {
+        "selectedInactiveBackground": "prp500",
+        "hoverBackground": "prp700",
+        "hoverInactiveBackground": "prp600"
+      },
+      "Button": {
+        "hoverBackground": "prp700",
+        "selectedBackground": "prp500",
+        "selectedForeground": "selectedForeground"
+      }
+    },
     "Tree": {
-      "background": "prp100"
-    }
+      "background": "prp100",
+      "selectionInactiveBackground": "prp700a1",
+      "rowHeight": 24
+    },
+    "ValidationTooltip": {
+      "warningBackground": "#2d2303",
+      "errorBackground": "#2d0312"
+    },
+    "window": "prp100",
+    "windowBorder": "prp700"
   },
   "colors": {
     "dark1": "#00000020",
@@ -208,6 +287,7 @@
     "prp200": "#170530ff",
     "prp300": "#1e0641ff",
     "prp500": "#2d0862ff",
+    "prp600": "#3f0c86ff",
     "prp700": "#5611aeff",
     "prp700a5": "#5611ae80",
     "prp700a1": "#5611ae20",
@@ -221,6 +301,7 @@
     "pnk900": "#ff00c2ff",
     "bwh500": "#e5b961ff",
     "bwh500a1": "#e5b96120",
+    "bwh700a5": "#e5c38a80",
     "bwh700": "#e5c38aff",
     "bwh900": "#e5e0d3ff",
     "highlight": "#ab0085ff",
@@ -248,10 +329,32 @@
       "Actions.Red": "#ab0085",
       "Actions.Blue": "#00a9f6",
       "Actions.Green": "#5bab00",
-      "Actions.Grey": "#32237e",
-      "Actions.GreyInline": "#26195f",
-      "Actions.GreyInline.Dark": "#0f0c2b",
-      "Actions.Yellow": "#c47600"
+      "Actions.Grey": "#ffffff50",
+      "Actions.GreyInline": "#ffffff50",
+      "Actions.GreyInline.Dark": "#280951",
+      "Actions.Yellow": "#c47600",
+      "Objects.Grey": "#ffffff80",
+      "Objects.Blue": "#00a9f6",
+      "Objects.Green": "#5bab00",
+      "Objects.Pink": "#ab0085",
+      "Objects.Red": "#ab0044",
+      "Checkbox.Background.Default": "#1a0f3c",
+      "Checkbox.Background.Default.Dark": "#1a0f3c",
+      "Checkbox.Background.Disabled": "#22193e",
+      "Checkbox.Background.Disabled.Dark": "#22193e",
+      "Checkbox.Background.Selected": "#3c0079ff",
+      "Checkbox.Background.Selected.Dark": "#3c0079ff",
+      "Checkbox.Border.Default": "#4e00dbff",
+      "Checkbox.Border.Default.Dark": "#4e00dbff",
+      "Checkbox.Border.Disabled": "#22193e",
+      "Checkbox.Border.Disabled.Dark": "#22193e",
+      "Checkbox.Border.Selected": "#3c0079",
+      "Checkbox.Border.Selected.Dark": "#3c0079",
+      "Checkbox.Foreground.Disabled": "#3c0079ff",
+      "Checkbox.Foreground.Disabled.Dark": "#3c0079ff",
+      "Checkbox.Foreground.Selected": "#ffffffd0",
+      "Checkbox.Foreground.Selected.Dark": "#ffffffd0",
+      "Tree.iconColor": "#3c0079ff"
     }
   }
 }
