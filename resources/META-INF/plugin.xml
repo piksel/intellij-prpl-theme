@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>se.piksel.intellij.themes.prpl</id>
     <name>Prpl Theme</name>
-    <version>0.3.0</version>
+    <version>0.4.0</version>
     <vendor email="nils@piksel.se" url="https://piksel.se">piksel bitworks</vendor>
     <resource-bundle>
 
@@ -11,7 +11,10 @@
     ]]></description>
 
     <change-notes><![CDATA[
-      Fixed python color scheme
+      - General consistency improvements.
+      - Use dark fallback color scheme
+      - Additional subtle hinting on various elements
+      - Hopefully fixes some odd color choices in rare UI elements
     ]]>
     </change-notes>
 
