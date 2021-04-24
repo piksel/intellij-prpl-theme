@@ -7,40 +7,45 @@
     "*": {
       "background": "prp200",
       "textText": "bwh900,",
-      "foreground": "bwh900",
+      "foreground": "bwh900a8",
+      "focusedBorderColor": "prp800",
       "selectionBackground": "prp700a5",
-      "selectionForeground": "bwh900",
+      "selectionForeground": "selectionForeground",
       "accent": "pnk500",
       "highlight": "pnk700a5",
       "windowBorder": "prp100",
-      "border": "prp100",
       "borderColor": "prp100",
       "selectionInactiveBackground": "prp700a1",
       "hoverForeground": "selectionForeground",
       "hoverBackground": "prp600",
+      "hoverBorderColor": "prp500",
+      "pressedBackground": "prp800",
+      "pressedBorderColor": "prp800",
       "separatorColor": "light1",
       "disabledBackground": "dark1"
     },
     "ActionButton": {
     },
     "Borders": {
-      "color": "light1",
-      "ContrastBorderColor": "light3"
+      "color": "light05",
+      "ContrastBorderColor": "light1"
     },
     "Button": {
       "background": "prp300",
+      "startBorderColor": "light1",
+      "endBorderColor": "light1",
       "shadowWidth": 2,
       "default": {
         "foreground": "bwh900",
         "startBackground": "prp600",
         "endBackground": "prp500",
         "focusColor": "#ff8000",
-        "focusedBorderColor": "#0080ff"
+        "startBorderColor": "light1",
+        "endBorderColor": "light1"
       },
       "startBackground": "prp300",
       "endBackground": "prp200",
-      "shadowColor": "prp200",
-      "focusedBorderColor": "#0080ff"
+      "shadowColor": "prp200"
     },
     "ColorChooser": {
       "background": "prp300"
@@ -68,17 +73,17 @@
     "DefaultTabs": {
       "background": "prp300",
       "hoverBackground": "dark1",
-      "underlinedTabBackground": "prp700a5",
+      "underlinedTabBackground": "prp700",
       "underlineColor": "pnk900",
-      "underlineHeight": 0
+      "underlineHeight": 2
     },
     "EditorTabs": {
       "background": "prp300",
       "underlinedTabBackground": "prp700a5",
       "underlineColor": "pnk900",
-      "underlineHeight": 0,
+      "underlineHeight": 2,
       "underlinedTabForeground": "bwh900",
-      "inactiveUnderlineColor": "dark3",
+      "inactiveUnderlineColor": "pnk500",
       "borderColor": "dark3",
       "hoverBackground": "dark3",
       "inactiveColoredFileBackground": "#00000000"
@@ -105,6 +110,7 @@
     "List": {
       "hoverBackground": "pnk500",
       "selectionInactiveBackground": "prp700a5",
+      "selectionInactiveForeground": "selectionForeground",
       "dropLineColor": "dark1",
       "selectionBackground": "prp700a5"
     },
@@ -129,8 +135,10 @@
       "errorBackground": "pnk300",
       "ToolWindow": {
         "errorBackground": "pnk300",
-        "warningBackground": "org700a1",
-        "informativeBackground": "cyn700a1",
+        "errorForeground": "pnk700",
+        "warningBackground": "org100",
+        "warningForeground": "bwh500",
+        "informativeBackground": "cyn100",
         "informativeForeground": "cyn700"
       }
     },
@@ -263,6 +271,7 @@
     "Tree": {
       "background": "prp100",
       "selectionInactiveBackground": "prp700a1",
+      "foreground": "bwh900",
       "rowHeight": 24
     },
     "ValidationTooltip": {
@@ -278,6 +287,7 @@
     "dark5": "#00000080",
     "dark7": "#000000a0",
     "dark9": "#000000d0",
+    "light05": "#ffffff05",
     "light1": "#ffffff20",
     "light3": "#ffffff50",
     "light5": "#ffffff80",
@@ -290,7 +300,7 @@
     "prp600": "#3f0c86ff",
     "prp700": "#5611aeff",
     "prp700a5": "#5611ae80",
-    "prp700a1": "#5611ae20",
+    "prp700a1": "#5611ae40",
     "prp800": "#740de9ff",
     "prp900": "#9236ffff",
     "pnk300": "#5d004c6d",
@@ -300,10 +310,12 @@
     "pnk700": "#c30099ff",
     "pnk900": "#ff00c2ff",
     "bwh500": "#e5b961ff",
-    "bwh500a1": "#e5b96120",
+    "bwh500a1": "#e5b96110",
     "bwh700a5": "#e5c38a80",
     "bwh700": "#e5c38aff",
     "bwh900": "#e5e0d3ff",
+    "bwh900a5": "#e5e0d380",
+    "bwh900a8": "#e5e0d3e0",
     "highlight": "#ab0085ff",
     "selectionBackground": "#2e008dff",
     "selectionForeground": "#ffffffff",
@@ -321,8 +333,10 @@
     "grn700a5": "#5bab0080",
     "grn700a1": "#5bab0020",
     "cyn700": "#00a9f6ff",
-    "cyn700a1": "#00a9f620",
-    "org700a1": "#c4760020"
+    "cyn100": "#152144ff",
+    "cyn700a1": "#00a9f610",
+    "org100": "#221427ff",
+    "org700a1": "#c4760010"
   },
   "icons": {
     "ColorPalette": {

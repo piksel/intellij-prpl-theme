@@ -1,21 +1,18 @@
 <idea-plugin>
     <id>se.piksel.intellij.themes.prpl</id>
     <name>Prpl Theme</name>
-    <version>0.5.3</version>
+    <version>0.6.0</version>
     <vendor email="nils@piksel.se" url="https://piksel.se">piksel bitworks</vendor>
-    <resource-bundle>
-
-    </resource-bundle>
     <description><![CDATA[
-      Vibrant dark purple theme for IntelliJ-based editors
+      <p>Vibrant dark purple theme for IntelliJ-based editors</p>
+      <p>Certainly monokaish, but mostly purple</p>
     ]]></description>
 
     <change-notes><![CDATA[
-      - General consistency improvements.
-      - Use dark fallback color scheme
-      - Additional subtle hinting on various elements
-      - Remove (unintentional) Material theme dependency
-      - Hopefully fixes some odd color choices in rare UI elements
+      <ul>
+        <li>Usability and contrast fixes</li>
+        <li>Remove transparency from unintended places</li>
+      </ul>
     ]]>
     </change-notes>
 
