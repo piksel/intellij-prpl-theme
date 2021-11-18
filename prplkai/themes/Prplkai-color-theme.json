@@ -455,25 +455,87 @@
 			"settings": {
 				"foreground": "#8C8C8C"
 			}
-		}
+		},
+		{
+            "name": "Meta Attribute Rust",
+            "scope": [
+                "meta.attribute.rust"
+            ],
+            "settings": {
+                "foreground": "#BCC199"
+            }
+        },
+        {
+            "name": "Storage Modifier Lifetime Rust,entity Name Lifetime Rust",
+            "scope": [
+                "storage.modifier.lifetime.rust",
+                "entity.name.lifetime.rust"
+            ],
+            "settings": {
+                "foreground": "#33E8EC"
+            }
+        },
+        {
+            "name": "Keyword Unsafe Rust",
+            "scope": [
+                "keyword.unsafe.rust"
+            ],
+            "settings": {
+                "foreground": "#ff5353"
+            }
+        },
+		{
+            "name": "[VSCODE-CUSTOM] Rust Unsafe Keyword",
+            "scope": "keyword.other.unsafe.rust",
+            "settings": {
+                "foreground": "#ff5353"
+            }
+        },
 	],
 	"semanticTokenColors": {
 		"*.async": "#2ee2d0",
 		"*.constant": "#ae81ff",
 		"*.global": "#41ff7a",
 		"*.local": "#cdc7ad",
-		"*.mutable": "#ff5353",
+		"*.mutable": "#ffffff",
 		"builtinConstant": "#5f51ee",
 		"*.controlFlow": "#740de9ff",
 		"*.builtin": "#5f51ee",
+
+		"attribute:rust": "#e5cc88",
+        "function.attribute:rust": "#e5cc88",
+        "*.attribute:rust": "#e5cc88",
+        
+        "keyword:rust": "#ae81ff",
+        "keyword.unsafe:rust": "#ff5353",
+
+        "namespace:rust": "#ffffff80",
+
+        "interface:rust": "#56B6C2",
+
+        "lifetime:rust": "#33E8EC",
+        "builtinType:rust": "#ae81ff",
+
+        "type:rust": "#E5C07B",
+        "struct:rust":"#E5C07B",
+        "enum:rust": "#E5C07B",
+        
+        "function:rust": "#66D9EF",
+
+        "property:rust": "#66D9EF",
+        "member:rust": "#66D9EF",
+        "enumMember:rust": "#D19A66",
+        "variable:rust": "#BBBBBB",
 	},
+	"semanticHighlighting": true,
 	"colors": {
 		"menu.background": "#0e0321ff",
 		"titleBar.inactiveBackground": "#0e0321ff",
 		"titleBar.activeBackground": "#0e0321ff",
 		"list.dropBackground": "#0e0321ff",
-		"list.focusBackground": "#ff0000",
+		"list.focusBackground": "#3f0c86ff",
 		"list.activeSelectionBackground": "#740de9ff",
+		"list.hoverBackground": "#2d0862ff",
 		"sideBar.background": "#170530ff",
 		"list.inactiveSelectionBackground": "#3f0c86ff", // ?
 		"activityBar.background": "#0e0321ff",
@@ -486,7 +548,10 @@
 		"editor.selectionBackground": "#2e008dff",
 		"tab.inactiveBackground": "#0e0321ff",
 		"tab.activeBackground": "#1e0641ff",
-		"editorGroupHeader.tabsBackground": "#0e0321ff"
+		"editorGroupHeader.tabsBackground": "#0e0321ff",
+		"settings.textInputBackground": "#2d0862ff",
+		"list.focusOutline": "#740de9ff",
+		"toolbar.hoverOutline": "#2e008dff"
 	},
 	"name": "Prplkai"
 }

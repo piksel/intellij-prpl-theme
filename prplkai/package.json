@@ -2,7 +2,7 @@
     "name": "prplkai",
     "displayName": "Prplkai",
     "description": "",
-    "version": "0.0.1",
+    "version": "0.1.2",
     "engines": {
         "vscode": "^1.60.0"
     },
@@ -17,5 +17,10 @@
                 "path": "./themes/Prplkai-color-theme.json"
             }
         ]
+    },
+    "homepage": "https://github.com/piksel/intellij-prpl-theme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/piksel/intellij-prpl-theme"
     }
 }
