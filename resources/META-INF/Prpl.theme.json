@@ -10,6 +10,7 @@
       "foreground": "bwh900a8",
       "focusedBorderColor": "prp800",
       "selectionBackground": "prp700a5",
+      "lightSelectionBackground": "prp700a5",
       "selectionForeground": "selectionForeground",
       "accent": "pnk500",
       "highlight": "pnk700a5",
@@ -22,7 +23,10 @@
       "pressedBackground": "prp800",
       "pressedBorderColor": "prp800",
       "separatorColor": "light1",
-      "disabledBackground": "dark1"
+      "disabledBackground": "dark1",
+
+      "inactiveBackground": "prp100",
+      "underlineColor": "pnk700"
     },
     "ActionButton": {
     },
@@ -32,8 +36,8 @@
     },
     "Button": {
       "background": "prp300",
-      "startBorderColor": "light1",
-      "endBorderColor": "light1",
+      "startBorderColor": "light05",
+      "endBorderColor": "light05",
       "shadowWidth": 2,
       "default": {
         "foreground": "bwh900",
@@ -45,7 +49,9 @@
       },
       "startBackground": "prp300",
       "endBackground": "prp200",
-      "shadowColor": "prp200"
+      "shadowColor": "prp200",
+      "disabledBorderColor": "prp100",
+      "disabledText": "light1"
     },
     "ColorChooser": {
       "background": "prp300"
@@ -58,7 +64,8 @@
       }
     },
     "CompletionPopup": {
-      "foreground": "light9"
+      "foreground": "bwh900a8",
+      "matchForeground": "pnk700"
     },
     "Component": {
       "focusColor": "pnk500",
@@ -170,6 +177,9 @@
       "Advertiser": {
         "foreground": "bwh700"
       },
+      "Body": {
+
+      },
       "Toolbar": {
         "borderColor": "dark3",
         "background": "prp300"
@@ -179,7 +189,8 @@
       "Header": {
         "activeBackground": "prp500",
         "inactiveBackground": "prp200"
-      }
+      },
+      "background": "prp300"
     },
     "PopupMenu": {
       "background": "prp300",
@@ -278,6 +289,11 @@
       "warningBackground": "#2d2303",
       "errorBackground": "#2d0312"
     },
+    "WelcomeScreen": {
+
+
+    },
+
     "window": "prp100",
     "windowBorder": "prp700"
   },

@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>se.piksel.intellij.themes.prpl</id>
     <name>Prpl Theme</name>
-    <version>0.6.0</version>
+    <version>0.7.1</version>
     <vendor email="nils@piksel.se" url="https://piksel.se">piksel bitworks</vendor>
     <description><![CDATA[
       <p>Vibrant dark purple theme for IntelliJ-based editors</p>
@@ -10,8 +10,7 @@
 
     <change-notes><![CDATA[
       <ul>
-        <li>Usability and contrast fixes</li>
-        <li>Remove transparency from unintended places</li>
+        <li>Fixes for new experimental UI</li>
       </ul>
     ]]>
     </change-notes>

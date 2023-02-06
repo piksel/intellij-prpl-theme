@@ -42,6 +42,7 @@
         <option name="INFORMATION_HINT" value="1a0045"/>
         <option name="LINE_NUMBERS_COLOR" value="d6c8ac"/>
         <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="f8b73c"/>
+        <option name="LOOKUP_COLOR" value="170530" />
         <option name="METHOD_SEPARATORS_COLOR" value="5b5a4e"/>
         <option name="MODIFIED_LINES_COLOR" value="415f69"/>
         <option name="NOTIFICATION_BACKGROUND" value="2e0078"/>
